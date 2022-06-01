@@ -11,6 +11,7 @@ jobs:
     name: generate-github-profile-3d-contrib
     steps:
       - uses: lowlighter/metrics@v3.23
+      - uses: screendriver/quickmetrics-action@v1
 
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
